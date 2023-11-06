@@ -30,16 +30,17 @@ const [user, setUser] = useState(true)
     <Route path="/products" element={<Products />} />
     <Route path="/products/:productID" element={<ProductPage />} />
     <Route path="/products/category/:categoryName" element={<CategoryPage />} />
-    <Route path="/login" element={<Login />} />
-    <Route path="/signUp" element={<SignUp />} />
+    {/* <Route path="/login" element={<Login />} /> */}
+    {/* <Route path="/signUp" element={<SignUp />} /> */}
     <Route path="*" element={<Page404 />} />
    
   </Routes>)
   
   : (<Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/login" element={<Login />} />
     <Route path="/signUp" element={<SignUp />} />
+    <Route path="/login" element={<Login />} />
+  
     
     <Route path="*" element={<Navigate to="/login" replace={true} /> } />
   </Routes>)
