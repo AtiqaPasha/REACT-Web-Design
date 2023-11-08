@@ -4,7 +4,10 @@ import Home from './Pages/Home';
 
 import Page404 from './Pages/Page404';
 import Login from './Pages/Login';
-import Signup from './Pages/Signup';
+import SignUp from './Pages/SignUp';
+
+
+
 import CategoryPage from './Pages/CategoryPage';
 
 import { useState } from 'react';
@@ -38,7 +41,7 @@ const [user, setUser] = useState(true)
   
   : (<Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/signUp" element={<Signup />} />
+    <Route path="/signUp" element={<SignUp />} />
     <Route path="/login" element={<Login />} />
   
     
