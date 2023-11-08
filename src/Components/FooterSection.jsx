@@ -38,7 +38,7 @@ export default function FooterSection() {
             <p  >
               Designed by
              
-                ATIQA PASHA & LAIBA MOHAMMAD ALI
+                ATIQA PASHA 
           
             </p>
           </div>
